@@ -31,7 +31,7 @@ const g_yaxis = g.append("g").attr("class", "y axis");
 // d3.
 
 
-d3.json("./data.json").then((json) => {
+d3.json("./data/data.json").then((json) => {
     data = json;
 
     update(data);
